@@ -72,7 +72,7 @@ LoyalLegend uses 5 custom V4 hooks as core protocol infrastructure:
 | `FifaOracle.sol` | Chainlink-powered FIFA ranking oracle |
 | V4 Hooks (×5) | Uniswap V4 liquidity hooks |
 
-**Deployed on Sepolia testnet — mainnet launch targeting Q3 2026.**
+**Deployed on Sepolia testnet — mainnet launch coming soon.**
 
 ---
 
@@ -101,9 +101,9 @@ Live on Sepolia testnet. Example: UAE promoted from rank 74 → rank 4 via oracl
 - [x] 5 Uniswap V4 hooks implemented
 - [x] Frontend — mint, gallery, dashboard pages
 - [ ] Security audit
-- [ ] Mainnet launch (Q3 2026)
+- [ ] Mainnet launch (coming soon)
 - [ ] $LEGEND token + Uniswap V4 pool launch
-- [ ] 2026 FIFA World Cup campaign
+- [ ] 2026 FIFA World Cup campaign (coming soon)
 
 ---
 
