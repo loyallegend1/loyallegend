@@ -1,0 +1,22 @@
+node_modules
+dist
+.DS_Store
+
+# Environment files — NEVER commit these (contains private keys)
+.env
+.env.local
+.env.*
+!.env.example
+
+# Hardhat artifacts
+contracts-workspace/artifacts/
+contracts-workspace/cache/
+contracts-workspace/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+Thumbs.db

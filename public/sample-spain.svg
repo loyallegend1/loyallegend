@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#111729"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#1f2940"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="480" height="600" rx="24" fill="url(#bg)" stroke="#1f2940" stroke-width="2"/>
+
+  <g transform="translate(24 36)">
+    <!-- Spain flag (red | yellow | red horizontal stripes) -->
+    <g transform="translate(0 -8)">
+      <rect x="0" y="0"  width="48" height="9"  fill="#aa151b"/>
+      <rect x="0" y="9"  width="48" height="18" fill="#f1bf00"/>
+      <rect x="0" y="27" width="48" height="9"  fill="#aa151b"/>
+    </g>
+    <text x="60" y="20" fill="#e6edf7" font-family="Impact, 'Bebas Neue', sans-serif" font-size="28" letter-spacing="3">SPAIN</text>
+    <text x="408" y="20" fill="#8a96b2" font-family="ui-monospace, monospace" font-size="18" text-anchor="end">#100</text>
+  </g>
+
+  <g transform="translate(24 80)">
+    <rect width="432" height="324" rx="16" fill="url(#frame)"/>
+    <rect width="432" height="324" rx="16" fill="url(#grid)"/>
+    <g transform="translate(132 56)">
+      <rect x="0" y="0"   width="168" height="50"  fill="#aa151b"/>
+      <rect x="0" y="50"  width="168" height="100" fill="#f1bf00"/>
+      <rect x="0" y="150" width="168" height="50"  fill="#aa151b"/>
+    </g>
+  </g>
+
+  <g transform="translate(24 440)" font-family="Inter, system-ui, sans-serif">
+    <text x="0"   y="0" fill="#8a96b2" font-size="18">FIFA Rank</text>
+    <text x="432" y="0" fill="#e6edf7" font-size="20" font-weight="600" text-anchor="end">#100</text>
+    <text x="0"   y="32" fill="#8a96b2" font-size="18">Points</text>
+    <text x="432" y="32" fill="#e6edf7" font-size="20" font-weight="600" text-anchor="end">1,300</text>
+  </g>
+
+  <!-- COMMON grey bottom bar -->
+  <g>
+    <rect x="0" y="540" width="480" height="60" fill="#9ca3af"/>
+    <text x="240" y="580" fill="#0a0e1a" font-family="Impact, 'Bebas Neue', sans-serif" font-size="28" letter-spacing="12" text-anchor="middle">COMMON</text>
+  </g>
+</svg>

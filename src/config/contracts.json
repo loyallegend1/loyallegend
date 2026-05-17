@@ -1,0 +1,29 @@
+{
+  "network": "sepolia",
+  "chainId": "11155111",
+  "deployer": "0xa432950d98C295081caA3a109b1140Aa04ed34f5",
+  "houseWallet": "0xa432950d98C295081caA3a109b1140Aa04ed34f5",
+  "deployedAt": "2026-05-12T09:25:13.203Z",
+  "contracts": {
+    "LegendToken": "0xc5A06d288c9d8E675DD5b075ce3C8396Cf3f124a",
+    "LoyaltyTracker": "0x2EA8114dEe1E15adFCfBEC8C3A4E71A9e7Df9Feb",
+    "LoyalLegendNFT": "0x8c3880CcaFF4F35a05E31Aa68bAB61c99449D3e1",
+    "FifaOracle": "0xe6Fa052f52f6542C81feEf2b1D1F4Dba6496F5Cd",
+    "MockPoolManager": "0x8735FFD65DDB679F21d4BE0b8d5cC30bc52b781e",
+    "LoyaltyPointsHook": "0x74d89Ce2693BD036B86d2be41b1248744995c2BA",
+    "SellPenaltyHook": "0x24649d79E1AB630bA522ea5B524A7610007dAd65",
+    "AntiDumpHook": "0x904Ab37765b05C24704FE750C5A8d03005C0Ae34",
+    "LegendRenderer": "0x64928fA898CD6DF5e380fa7ca830b272b2e26136"
+  },
+  "redeployedAt": "2026-05-12T16:24:37.204Z",
+  "tierSpecsRelaxed": true,
+  "previous": {
+    "LoyalLegendNFT": "0x284f714b132BfaDa4563EF141D8f67662510De84",
+    "FifaOracle": "0x68105736dAE505909490BA594ECaccfB8A0eBcA4",
+    "LoyalLegendNFT_prev": "0x3A3f519055b2c986A5428a1B8BCf31E619356ed4",
+    "FifaOracle_prev": "0xAEC79E752d4fF13C7923730D30ebd1eC8dB2B0e2",
+    "LegendRenderer_prev": "0x5060Aebb2A7cC59DbD717A531Fe1E3B9F646966A"
+  },
+  "rendererEnabled": true,
+  "rendererUpgradedAt": "2026-05-12T19:58:36.980Z"
+}
