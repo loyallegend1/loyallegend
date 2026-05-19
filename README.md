@@ -109,7 +109,7 @@ Live on Sepolia testnet. Example: UAE promoted from rank 74 → rank 4 via oracl
 
 ## Contact
 
-- Twitter: [@LoyalLegendNFT](https://twitter.com/LoyalLegendNFT)
+- Twitter: [@LoyalLegendNFT](https://x.com/LoyalLegendNFT)
 - Built on Ethereum
 
 ---
